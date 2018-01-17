@@ -3,13 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <bean id="knight" class="di.BraveKnight">
+    <bean id="knight" class="com.learn.session1.di.BraveKnight">
         <constructor-arg ref="quest">
 
         </constructor-arg>
 
     </bean>
-    <bean id="quest" class="di.SlayDragonQuest">
+    <bean id="quest" class="com.learn.session1.di.SlayDragonQuest">
         <constructor-arg value="#{T(System).out}">
 
         </constructor-arg>

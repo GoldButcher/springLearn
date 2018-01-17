@@ -1,9 +1,9 @@
 /*
  * Copyright (C) 2009-2016 Hangzhou 2Dfire Technology Co., Ltd. All rights reserved
  */
-package main;
+package com.learn.session1.main;
 
-import common.Knight;
+import com.learn.session1.common.Knight;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
