@@ -14,7 +14,7 @@
 
         </constructor-arg>
     </bean>
-    <bean id="minstrel" class="aop.Minstrel">
+    <bean id="minstrel" class="com.learn.session1.aop.Minstrel">
         <constructor-arg value="#{T(System).out}">
 
         </constructor-arg>
